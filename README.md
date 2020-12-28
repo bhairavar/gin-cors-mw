@@ -1,1 +1,1 @@
-# Gin Default Routes
+# Gin cors middleware
