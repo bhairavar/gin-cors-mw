@@ -32,7 +32,7 @@ func CORSMiddleware(route *gin.Engine,
 		case "PATCH":
 			c.Next()
 		default:
-			c.AbortWithStatusJSON(406,"unsupported cors options.")
+			c.AbortWithStatus(406)
 
 		}
 	}
